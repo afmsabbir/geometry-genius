@@ -97,7 +97,8 @@
                             cm<sup>2</sup>
                         </p>
                         <div class="card-actions mt-10">
-                            <button onclick="calculateParallelogramArea()" class="btn btn-primary w-full">Calculate</button>
+                            <button onclick="calculateParallelogramArea()"
+                                class="btn btn-primary w-full">Calculate</button>
                         </div>
                     </div>
                 </div>
@@ -156,23 +157,23 @@
                     <figure><img src="./images/ellipse.png" alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">Ellipse</h2>
-                        <p>Area (A) = 0.5 x b x h</p>
+                        <p>Area (A) = πab</p>
                         <p>
-                            <!-- triangle base -->
-                            <input id="triangle-b" type="text" placeholder="b"
+                            <!-- ellipse base -->
+                            <input id="ellipse-a" type="text" placeholder="a"
                                 class="ml-4 border bg-gray-200 w-24 text-xl px-2">
                             <span class="ml-2">cm</span>
-                            <!-- triangle height -->
-                            <input id="triangle-h" type="text" placeholder="h"
+                            <!-- ellipse height -->
+                            <input id="ellipse-b" type="text" placeholder="b"
                                 class="ml-4 border bg-gray-200 w-24 text-xl px-2">
                             <span class="ml-2">cm</span>
                         </p>
                         <p class="text-2xl">
-                            Area: <span id="triangle-area" class="font-semibold">00</span>
+                            Area: <span id="ellipse-area" class="font-semibold">00</span>
                             cm<sup>2</sup>
                         </p>
                         <div class="card-actions mt-10">
-                            <button onclick="calculateTriangleArea()" class="btn btn-primary w-full">Calculate</button>
+                            <button onclick="calculateEllipseArea()" class="btn btn-primary w-full">Calculate</button>
                         </div>
                     </div>
                 </div>
